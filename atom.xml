@@ -41,7 +41,7 @@
     <link href="http://example.com/2022/12/06/test80/"/>
     <id>http://example.com/2022/12/06/test80/</id>
     <published>2022-12-06T02:58:29.000Z</published>
-    <updated>2022-12-06T10:18:28.523Z</updated>
+    <updated>2022-12-06T13:52:34.334Z</updated>
     
     <content type="html"><![CDATA[<img                       lazyload                     src="/images/loading.svg"                     data-src="/images/mem/alchemaniac.jpg"                      width=256 height=256                 ><h3 id="111"><a href="#111" class="headerlink" title="111"></a>111</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>]]></content>
     

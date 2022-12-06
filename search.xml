@@ -18,4 +18,62 @@
 <p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>Markdown学习</title>
+    <url>/2022/12/06/Markdown-Studying/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>面向小白的Hexo安装与常见疑难合集</title>
+    <url>/2022/12/06/hexo-install/</url>
+    <content><![CDATA[<pre><code>本站是基于Hexo部署于Github上的个人站点，欢迎您的到来。
+This site is personal site deployed on Github based on Hexo.
+You&#39;re always welcome.
+</code></pre>
+<p>&amp;emsp;&amp;emsp;本博客的契机是一位老友不久前和我讨论过写博客的事，但我对现在的博客搭建并不熟悉没有帮上很大的忙，这篇文章会不断更新，还包括我在其他地方发现的一些问题。<br>&amp;emsp;&amp;emsp;关于markdown的语法会在后面的一片博客里持续更新。  </p>
+<h1 id="快速开始Quick-Start"><a href="#快速开始Quick-Start" class="headerlink" title="快速开始Quick Start"></a>快速开始Quick Start</h1><h2 id="1-安装Git"><a href="#1-安装Git" class="headerlink" title="1. 安装Git"></a>1. 安装Git</h2><h2 id="2-安装node-js"><a href="#2-安装node-js" class="headerlink" title="2. 安装node.js"></a>2. 安装node.js</h2><h2 id="3-安装Hexo"><a href="#3-安装Hexo" class="headerlink" title="3. 安装Hexo"></a>3. 安装Hexo</h2><p>在你想要安装hexo的位置新建一个文件夹，例如我的“bonds”，打开它，在这里右键使用“Git Bash Here ”以cd至此文件夹，此为Hexo根目录的上级目录。  </p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>输入命令</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></div>
+<p>PS：此时可以使用此命令查看Hexo版本</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure></div>
+<h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><p>此处创建的Blog文件夹为你的blog的根目录，请自行选择名称</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init Blog</span><br></pre></td></tr></table></figure></div>
+<p>根目录的对象说明  </p>
+<p>node_modules: 依赖包<br>public：存放生成的页面<br>scaffolds：生成文章的一些模板<br>source：你的博客文章和其他页面与网页资源<br>themes：主题<br>** _config.yml: 博客的配置文件**  </p>
+<h3 id="本地部署"><a href="#本地部署" class="headerlink" title="本地部署"></a>本地部署</h3><p>输入命令</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure></div>
+<p>直到出现 <a class="link"   href="http://localhost:4000/" >http://localhost:4000/<i class="fas fa-external-link-alt"></i></a> 网站便成功部署到了本地，可以通过此链接访问，本地部署也是测试网站的主要方式。  </p>
+<p>这是一个以Hexo默认主题创建的页面，后续更换主题的操作将在接下来提及。<br>确认无误后可以在 Git 窗口使用 Ctrl + C 关闭本地部署</p>
+<h2 id="Github-仓库创建"><a href="#Github-仓库创建" class="headerlink" title="Github 仓库创建"></a>Github 仓库创建</h2><p>注册并登录Github<br>在个人主页的Repositories界面使用New按钮，名称为你的Github用户名加.github.io</p>
+<h2 id="生成SSH值Github"><a href="#生成SSH值Github" class="headerlink" title="生成SSH值Github"></a>生成SSH值Github</h2><p>使用Git bash输入命令</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;你的用户名&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;你的邮箱&quot;</span></span><br></pre></td></tr></table></figure></div>
+<p>可以用以下两条，检查一下你有没有输对</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></table></figure></div>
+<p>确认过后输入命令</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;你的邮箱&quot;</span></span><br></pre></td></tr></table></figure></div>
+<p>可能需要按几次会车键<br>最后你的电脑里就生成了一个.ssh文件夹<br>Win10位于C:\Users\用户名.ssh</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>test90</title>
+    <url>/2022/12/06/test80/</url>
+    <content><![CDATA[<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/mem/mb.png"
+                      width=512 height=512 
+                >
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/mem/alchemaniac.jpg"
+                      width=256 height=256 
+                >
+
+<h3 id="111"><a href="#111" class="headerlink" title="111"></a>111</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+]]></content>
+  </entry>
 </search>

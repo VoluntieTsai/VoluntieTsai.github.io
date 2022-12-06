@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-12-06T07:01:32.783Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>面向小白的Hexo安装与常见疑难合集</title>
+    <link href="http://example.com/2022/12/06/hexo-install/"/>
+    <id>http://example.com/2022/12/06/hexo-install/</id>
+    <published>2022-12-06T06:05:36.000Z</published>
+    <updated>2022-12-06T07:01:32.783Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>本站是基于Hexo部署于Github上的个人站点，欢迎您的到来。This site is personal site deployed on Github based on Hexo.You&#39;re always welcome.</code></pre><p>&amp;emsp;&amp;emsp;本博客的契机是一位老友不久前和我讨论过写博客的事，但我对现在的博客搭建并不熟悉没有帮上很大的忙，这篇文章会不断更新，还包括我在其他地方发现的一些问题。<br>&amp;emsp;&amp;emsp;关于markdown的语法会在后面的一片博客里持续更新。  </p><h1 id="快速开始Quick-Start"><a href="#快速开始Quick-Start" class="headerlink" title="快速开始Quick Start"></a>快速开始Quick Start</h1><h2 id="1-安装Git"><a href="#1-安装Git" class="headerlink" title="1. 安装Git"></a>1. 安装Git</h2><h2 id="2-安装node-js"><a href="#2-安装node-js" class="headerlink" title="2. 安装node.js"></a>2. 安装node.js</h2><h2 id="3-安装Hexo"><a href="#3-安装Hexo" class="headerlink" title="3. 安装Hexo"></a>3. 安装Hexo</h2><p>在你想要安装hexo的位置新建一个文件夹，例如我的“bonds”，打开它，在这里右键使用“Git Bash Here ”以cd至此文件夹，此为Hexo根目录的上级目录。  </p><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>输入命令</p><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></div><p>PS：此时可以使用此命令查看Hexo版本</p><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure></div><h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><p>此处创建的Blog文件夹为你的blog的根目录，请自行选择名称</p><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init Blog</span><br></pre></td></tr></table></figure></div><p>根目录的对象说明  </p><p>node_modules: 依赖包<br>public：存放生成的页面<br>scaffolds：生成文章的一些模板<br>source：你的博客文章和其他页面与网页资源<br>themes：主题<br>** _config.yml: 博客的配置文件**  </p><h3 id="本地部署"><a href="#本地部署" class="headerlink" title="本地部署"></a>本地部署</h3><p>输入命令</p><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure></div><p>直到出现 <a class="link"   href="http://localhost:4000/" >http://localhost:4000/<i class="fas fa-external-link-alt"></i></a> 网站便成功部署到了本地，可以通过此链接访问，本地部署也是测试网站的主要方式。  </p><p>这是一个以Hexo默认主题创建的页面，后续更换主题的操作将在接下来提及。<br>确认无误后可以在 Git 窗口使用 Ctrl + C 关闭本地部署</p><h2 id="Github-仓库创建"><a href="#Github-仓库创建" class="headerlink" title="Github 仓库创建"></a>Github 仓库创建</h2><p>注册并登录Github<br>在个人主页的Repositories界面使用New按钮，名称为你的Github用户名加.github.io</p><h2 id="生成SSH值Github"><a href="#生成SSH值Github" class="headerlink" title="生成SSH值Github"></a>生成SSH值Github</h2><p>使用Git bash输入命令</p><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;你的用户名&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;你的邮箱&quot;</span></span><br></pre></td></tr></table></figure></div><p>可以用以下两条，检查一下你有没有输对</p><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></table></figure></div><p>确认过后输入命令</p><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;你的邮箱&quot;</span></span><br></pre></td></tr></table></figure></div><p>可能需要按几次会车键<br>最后你的电脑里就生成了一个.ssh文件夹<br>Win10位于C:\Users\用户名.ssh</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;pre&gt;&lt;code&gt;本站是基于Hexo部署于Github上的个人站点，欢迎您的到来。
+This site is personal site deployed on Github based on Hexo.
+You&amp;#39;re always welcome.
+&lt;/code&gt;&lt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test90</title>
+    <link href="http://example.com/2022/12/06/test80/"/>
+    <id>http://example.com/2022/12/06/test80/</id>
+    <published>2022-12-06T02:58:29.000Z</published>
+    <updated>2022-12-06T06:02:42.288Z</updated>
+    
+    <content type="html"><![CDATA[<img                       lazyload                     src="/images/loading.svg"                     data-src="/images/mem/mb.png"                      width=512 height=512                 ><img                       lazyload                     src="/images/loading.svg"                     data-src="/images/mem/alchemaniac.jpg"                      width=256 height=256                 ><h3 id="111"><a href="#111" class="headerlink" title="111"></a>111</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;img  
+                     lazyload
+                     src=&quot;/images/loading.svg&quot;
+                     data-src=&quot;/images/mem/mb.png&quot;
+     </summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown学习</title>
+    <link href="http://example.com/2022/12/06/Markdown-Studying/"/>
+    <id>http://example.com/2022/12/06/Markdown-Studying/</id>
+    <published>2022-12-06T02:28:37.000Z</published>
+    <updated>2022-12-06T06:04:38.702Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2022/12/05/hello-world/"/>
+    <id>http://example.com/2022/12/05/hello-world/</id>
+    <published>2022-12-05T08:30:44.953Z</published>
+    <updated>2022-12-05T08:30:44.953Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div><p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div><p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div><p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div><p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/&quot; &gt;Hexo&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt;! This is your very first post. Che</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>

@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Markdown语法学习</title>
+    <url>/2022/12/06/Markdown-Studying/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>all-in-one</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>可使用MIDI键盘游玩的钢琴音游-Synthesia</title>
+    <url>/2022/12/07/Music-Synthesia/</url>
+    <content><![CDATA[<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/Music_Synthesia/header.PNG"
+                      
+                >
+
+<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>Synthesia是一个宽泛意义上的音游软件，可以从其他地方下载或者从官网购买歌曲，本身功能十分齐全，<br>笔者使用的<br>可以在这里购买 <a class="link"   href="https://www.synthesiagame.com/" >https://www.synthesiagame.com/<i class="fas fa-external-link-alt"></i></a><br>偶尔会有特价</p>
+<h1 id="运行环境"><a href="#运行环境" class="headerlink" title="运行环境"></a>运行环境</h1><p>系统版本：Windows10 10.0.19045.2251<br>MIDI键盘 ： </p>
+<h1 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h1>]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>Music Fun-to-Learn</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Music_Hooktheory_2</title>
+    <url>/2022/12/07/Music-Hooktheory-2/</url>
+    <content><![CDATA[<p>96</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>有声乐理书Hooktheory第一分卷</title>
+    <url>/2022/12/07/Music-Hooktheory-1/</url>
+    <content><![CDATA[<p>本系列文为有声乐理书 Hooktheory 的学习指南与学习笔记，使用苹果Appstore中的版本，本人乐理刚刚起步，可能有错误或歧义，文章会缓慢更新，</p>
+<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1>]]></content>
+      <tags>
+        <tag>Music</tag>
+        <tag>All-in-one</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2022/12/05/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p>
@@ -16,28 +60,6 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
 
 <p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Markdown学习</title>
-    <url>/2022/12/06/Markdown-Studying/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test90</title>
-    <url>/2022/12/06/test80/</url>
-    <content><![CDATA[<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/mem/alchemaniac.jpg"
-                      width=256 height=256 
-                >
-
-<h3 id="111"><a href="#111" class="headerlink" title="111"></a>111</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-
-
-
 ]]></content>
   </entry>
   <entry>
@@ -118,6 +140,38 @@ id_rsa 是本电脑的私钥，请妥善保存
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></div>
 <p>在本地部署以快速查看效果</p>
 <h2 id="1-配置文件详解"><a href="#1-配置文件详解" class="headerlink" title="1. 配置文件详解"></a>1. 配置文件详解</h2><p>_config.yml文件会与_config.你的主题.yml文件合并覆盖，具体请参阅主题文档</p>
+<h1 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h1>]]></content>
+      <tags>
+        <tag>all-in-one</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test2</title>
+    <url>/2022/12/08/test2/</url>
+    <content><![CDATA[<p>9999</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>test90</title>
+    <url>/2022/12/06/test80/</url>
+    <content><![CDATA[<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/mem/alchemaniac.jpg"
+                      width=256 height=256 
+                >
+
+<h3 id="111"><a href="#111" class="headerlink" title="111"></a>111</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+
+]]></content>
+      <categories>
+        <category>web前端</category>
+      </categories>
+      <tags>
+        <tag>all-in-one</tag>
+      </tags>
   </entry>
 </search>

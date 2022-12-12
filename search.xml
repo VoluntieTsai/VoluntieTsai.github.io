@@ -19,7 +19,8 @@
     <title>有声乐理书Hooktheory第一分卷</title>
     <url>/2022/12/07/Music-Hooktheory-1/</url>
     <content><![CDATA[<p>本系列文为有声乐理书 Hooktheory 的学习指南与学习笔记，使用苹果Appstore中的版本，本人乐理刚刚起步，可能有错误或歧义，文章会缓慢更新，</p>
-<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1>]]></content>
+<h1>简介</h1>
+]]></content>
       <tags>
         <tag>Music</tag>
         <tag>All-in-one</tag>
@@ -40,10 +41,16 @@
                      data-src="/images/Music_Synthesia/header.PNG"
                       
                 >
-
-<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>Synthesia是一个宽泛意义上的音游软件，可以从其他地方下载或者从官网购买歌曲，本身功能十分齐全，<br>笔者使用的<br>可以在这里购买 <a class="link"   href="https://www.synthesiagame.com/" >https://www.synthesiagame.com/<i class="fas fa-external-link-alt"></i></a><br>偶尔会有特价</p>
-<h1 id="运行环境"><a href="#运行环境" class="headerlink" title="运行环境"></a>运行环境</h1><p>系统版本：Windows10 10.0.19045.2251<br>MIDI键盘 ： </p>
-<h1 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h1>]]></content>
+<h1>简介</h1>
+<p>Synthesia是一个宽泛意义上的音游软件，可以从其他地方下载或者从官网购买歌曲，本身功能十分齐全，<br>
+笔者使用的<br>
+可以在这里购买 <a class="link"   href="https://www.synthesiagame.com/" >https://www.synthesiagame.com/<i class="fas fa-external-link-alt"></i></a><br>
+偶尔会有特价</p>
+<h1>运行环境</h1>
+<p>系统版本：Windows10 10.0.19045.2251<br>
+MIDI键盘 ：</p>
+<h1>设置</h1>
+]]></content>
       <categories>
         <category>软件</category>
       </categories>
@@ -55,51 +62,88 @@
     <title>Hello World</title>
     <url>/2022/12/05/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
 <p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
-
+<h3 id="Run-server">Run server</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
 <p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
-
+<h3 id="Generate-static-files">Generate static files</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
 <p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
-
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
 <p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
 ]]></content>
   </entry>
   <entry>
     <title>面向小白的Hexo安装与常见疑难合集</title>
     <url>/2022/12/06/hexo-install/</url>
-    <content><![CDATA[<p><strong>本站是基于Hexo部署于Github上的个人站点，欢迎您的到来。</strong><br><strong>This site is personal site deployed on Github based on Hexo.</strong><br><strong>You are welcome</strong>.  </p>
-<p>本博客的契机是一位老友不久前和我讨论过写博客的事，但我对现在的博客搭建并不熟悉没有帮上很大的忙，这篇文章会不断更新，还包括我在其他地方发现的一些问题。<br>关于markdown的语法会在后面的一篇博客里持续更新。  </p>
-<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>Hexo是基于Node.js的静态博客框架，依赖少易于安装<br>静态简单地说就是实际的网站和本地是不同步的  </p>
+    <content><![CDATA[<p><strong>本站是基于Hexo部署于Github上的个人站点，欢迎您的到来。</strong><br>
+<strong>This site is personal site deployed on Github based on Hexo.</strong><br>
+<strong>You are welcome</strong>.</p>
+<p>本博客的契机是一位老友不久前和我讨论过写博客的事，但我对现在的博客搭建并不熟悉没有帮上很大的忙，这篇文章会不断更新，还包括我在其他地方发现的一些问题。<br>
+关于markdown的语法会在后面的一篇博客里持续更新。</p>
+<h1>简介</h1>
+<p>Hexo是基于Node.js的静态博客框架，依赖少易于安装<br>
+静态简单地说就是实际的网站和本地是不同步的</p>
 <p>自建博客的初衷是脱离大型平台的诸多限制和一些其他问题，还有就是一定程度上的个人定制，这些都可以通过插件和编辑做到</p>
-<p>Hexo官方页面 <a class="link"   href="https://hexo.io/zh-cn/" >https://hexo.io/zh-cn/<i class="fas fa-external-link-alt"></i></a><br>作者是个台湾人，对中文支持不错</p>
-<h1 id="快速开始Quick-Start"><a href="#快速开始Quick-Start" class="headerlink" title="快速开始Quick Start"></a>快速开始Quick Start</h1><h2 id="1-安装-Git"><a href="#1-安装-Git" class="headerlink" title="1. 安装 Git"></a>1. 安装 Git</h2><h2 id="2-安装-node-js"><a href="#2-安装-node-js" class="headerlink" title="2. 安装 node.js"></a>2. 安装 node.js</h2><h2 id="3-安装-Hexo"><a href="#3-安装-Hexo" class="headerlink" title="3 .安装 Hexo"></a>3 .安装 Hexo</h2><p>在你想要安装hexo的位置新建一个文件夹，例如我的“bonds”，打开它，在这里右键使用“Git Bash Here ”以cd至此文件夹，此为Hexo根目录的上级目录。  </p>
-<h3 id="3-1-安装"><a href="#3-1-安装" class="headerlink" title="3.1 安装"></a>3.1 安装</h3><p>输入命令</p>
+<p>Hexo官方页面 <a class="link"   href="https://hexo.io/zh-cn/" >https://hexo.io/zh-cn/<i class="fas fa-external-link-alt"></i></a><br>
+作者是个台湾人，对中文支持不错</p>
+<style>
+        kbd {
+            border-radius:4px;
+            padding:4px;
+            border:2px solid black;
+        }
+</style>
+<h1>快速开始Quick Start</h1>
+<h2 id="1-安装-Git">1. 安装 Git</h2>
+<p><a class="link"   href="https://git-scm.com/book/zh/v2" >https://git-scm.com/book/zh/v2<i class="fas fa-external-link-alt"></i></a><br>
+你可以在这里阅读Git的手册并下载它的最新版本</p>
+<p>在任意位置打开Git窗口</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git version  //此命令可以查看已安装的git版本</span><br></pre></td></tr></table></figure></div>
+<h2 id="2-安装-node-js">2. 安装 node.js</h2>
+<p><a class="link"   href="https://nodejs.org/zh-cn/download/" >https://nodejs.org/zh-cn/download/<i class="fas fa-external-link-alt"></i></a><br>
+你可以在这里阅读Node.js的手册并下载它的各种版本</p>
+<div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="code"><pre><span class="line">node -v      //此命令可以查看已安装的Node.js版本</span><br></pre></td></tr></table></figure></div>
+<h2 id="3-安装-Hexo">3 .安装 Hexo</h2>
+<p>在你想要安装hexo的位置新建一个文件夹，例如我的“bonds”，打开它，在这里右键使用“Git Bash Here ”以cd至此文件夹，此为Hexo根目录的上级目录。</p>
+<h3 id="3-1-安装">3.1 安装</h3>
+<p>输入命令</p>
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></div>
-
 <p>PS：此时可以使用此命令查看Hexo版本</p>
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="3-2-初始化"><a href="#3-2-初始化" class="headerlink" title="3.2 初始化"></a>3.2 初始化</h3><p>此处创建的Blog文件夹为你的Hexo的根目录，请自行选择名称</p>
+<h3 id="3-2-初始化">3.2 初始化</h3>
+<p>此处创建的Blog文件夹为你的Hexo的根目录，请自行选择名称</p>
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init Blog</span><br></pre></td></tr></table></figure></div>
-<p>根目录的对象说明  </p>
-<p>node_modules: 依赖包<br>public：存放生成的页面<br>scaffolds：生成文章的一些模板<br>source：你的博客文章和其他页面与网页资源<br>themes：主题<br><strong>_config.yml: 博客的配置文件</strong>  </p>
-<h3 id="3-3-本地部署"><a href="#3-3-本地部署" class="headerlink" title="3.3 本地部署"></a>3.3 本地部署</h3><p>输入命令</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure></div>
-<p>直到出现 <a class="link"   href="http://localhost:4000/" >http://localhost:4000/<i class="fas fa-external-link-alt"></i></a> 网站便成功部署到了本地，可以通过此链接访问，本地部署也是测试网站的主要方式。  </p>
-<p>这是一个以Hexo默认主题创建的页面，后续更换主题的操作将在接下来提及。<br>确认无误后可以在 Git 窗口使用 Ctrl + C 关闭本地部署</p>
-<h2 id="4-Github-仓库创建"><a href="#4-Github-仓库创建" class="headerlink" title="4. Github 仓库创建"></a>4. Github 仓库创建</h2><p>注册并登录Github<br>在个人主页的Repositories界面使用New按钮，名称为你的Github用户名加.github.io</p>
-<h2 id="5-SSH相关"><a href="#5-SSH相关" class="headerlink" title="5. SSH相关"></a>5. SSH相关</h2><h3 id="5-1-生成本机SSH"><a href="#5-1-生成本机SSH" class="headerlink" title="5.1 生成本机SSH"></a>5.1 生成本机SSH</h3><p>使用Git bash输入命令</p>
+<p>根目录的对象说明</p>
+<p>node_modules: 插件、依赖等等<br>
+public：存放生成的页面<br>
+scaffolds：生成文章的一些模板<br>
+source：你的博客文章和其他页面与网页资源<br>
+themes：主题<br>
+<strong>_config.yml: 博客的配置文件</strong></p>
+<h3 id="3-3-本地部署">3.3 本地部署</h3>
+<p>输入命令</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g   //生成静态页面</span><br><span class="line">hexo s   //本地部署网站服务</span><br></pre></td></tr></table></figure></div>
+<p>直到出现 <a class="link"   href="http://localhost:4000/" >http://localhost:4000/<i class="fas fa-external-link-alt"></i></a> 网站便成功部署到了本地，可以通过此链接访问，本地部署也是测试网站的主要方式。</p>
+<p>这是一个以Hexo默认主题创建的页面，后续更换主题的操作将在接下来提及。<br>
+确认无误后可以在 Git 窗口使用 <kbd> Ctrl + C</kbd> 关闭本地部署</p>
+<h2 id="4-Github-仓库创建">4. Github 仓库创建</h2>
+<p>注册并登录Github<br>
+在个人主页的 <kbd> Repositories</kbd> 界面使用 <kbd> New</kbd>按钮，<a class="link"   href="http://xn--Github+-e73kl9f79ria5264bbq1c97dm4p.github.io" >名称为你的Github用户名+.github.io<i class="fas fa-external-link-alt"></i></a></p>
+<h2 id="5-SSH相关">5. SSH相关</h2>
+<h3 id="5-1-生成本机SSH">5.1 生成本机SSH</h3>
+<p>使用Git bash输入命令</p>
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;你的用户名&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;你的邮箱&quot;</span></span><br></pre></td></tr></table></figure></div>
 <p>可以用以下两条，检查一下你有没有输对</p>
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></table></figure></div>
 <p>确认过后输入命令</p>
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;你的邮箱&quot;</span></span><br></pre></td></tr></table></figure></div>
-<p>可能需要按几次回车键<br>最后你的电脑里就生成了一个.ssh文件夹  </p>
+<p>可能需要按几次回车键<br>
+最后你的电脑里就生成了一个.ssh文件夹</p>
 <p>Win10位于C:\Users\用户名.ssh</p>
 <!---橙色--->
 <div class="wo">
@@ -108,17 +152,27 @@
   </div>
   <div class="c">
 id_rsa 是本电脑的私钥，请妥善保存  
-
-<p>id_rsa.pub 是公钥，可供分享<br>存放在Github上的公钥和本电脑的私钥匹配后，你的博客才能正常部署<br>  </div></p>
+<p>id_rsa.pub 是公钥，可供分享<br>
+存放在Github上的公钥和本电脑的私钥匹配后，你的博客才能正常部署</p>
+  </div>
 </div>
-
-<h3 id="5-2-GitHub设置"><a href="#5-2-GitHub设置" class="headerlink" title="5.2 GitHub设置"></a>5.2 GitHub设置</h3><p>在setting找到SSH and GPG keys选项<br>点击New SSH key<br>Title任意输入<br>复制id_rsa.pub里的内容粘贴到key中<br>Add SSH key  </p>
-<p>使用Git bish<br>输入命令</p>
+<h3 id="5-2-GitHub设置">5.2 GitHub设置</h3>
+<p>在setting找到SSH and GPG keys选项<br>
+点击New SSH key<br>
+Title任意输入<br>
+复制id_rsa.pub里的内容粘贴到key中<br>
+Add SSH key</p>
+<p>使用Git bish<br>
+输入命令</p>
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure></div>
 <p>可验证是否成功</p>
-<h2 id="6-部署到Github"><a href="#6-部署到Github" class="headerlink" title="6. 部署到Github"></a>6. 部署到Github</h2><h3 id="6-1-安装deploy-git"><a href="#6-1-安装deploy-git" class="headerlink" title="6.1 安装deploy-git"></a>6.1 安装deploy-git</h3><p>使用Git bash输入命令</p>
+<h2 id="6-部署到Github">6. 部署到Github</h2>
+<h3 id="6-1-安装deploy-git">6.1 安装deploy-git</h3>
+<p>使用Git bash输入命令</p>
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></div>
-<h3 id="6-2-修改Hexo配置"><a href="#6-2-修改Hexo配置" class="headerlink" title="6.2 修改Hexo配置"></a>6.2 修改Hexo配置</h3><p>打开根目录的 _config.yml 文件<br>利用关键词查找并更改以下内容</p>
+<h3 id="6-2-修改Hexo配置">6.2 修改Hexo配置</h3>
+<p>打开根目录的 _config.yml 文件<br>
+利用关键词查找并更改以下内容</p>
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/你的github用户名/你的github用户名.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></div>
 <!---绿色--->
 <div class="wg">
@@ -129,8 +183,8 @@ id_rsa 是本电脑的私钥，请妥善保存
     这段代码一般来说不全，则将其补全。
   </div>
 </div>
-
-<h3 id="6-3-部署"><a href="#6-3-部署" class="headerlink" title="6.3 部署"></a>6.3 部署</h3><p>输入代码</p>
+<h3 id="6-3-部署">6.3 部署</h3>
+<p>输入代码</p>
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean      \\清除之前版本</span><br><span class="line">hexo g          \\生成静态页面</span><br><span class="line">hexo d          \\部署到Github上</span><br></pre></td></tr></table></figure></div>
 <!---绿色--->
 <div class="wg">
@@ -141,13 +195,23 @@ id_rsa 是本电脑的私钥，请妥善保存
     部署到Github上时可能需要你输入用户名和密码
   </div>
 </div>
-
-<h1 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h1><p> 在官方 <a class="link"   href="https://hexo.io/themes/" >https://hexo.io/themes/<i class="fas fa-external-link-alt"></i></a> 页面上有许多可供选择的主题<br>它们大多配备了较为完善的文档供配置<br>如果你熟悉Html和CSS等前端工具，也可以通过官方文档等文章自制或编辑一个主题  </p>
-<p>以本博客使用的redefine为例<br>Github页面：<a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine" >https://github.com/EvanNotFound/hexo-theme-redefine<i class="fas fa-external-link-alt"></i></a><br>文档：<a class="link"   href="https://redefine-docs.evanluo.top/" >https://redefine-docs.evanluo.top/<i class="fas fa-external-link-alt"></i></a><br>请仔细阅读文档，可通过命令</p>
+<h3 id="6-4-组合命令">6.4 组合命令</h3>
+<p>可以使用&amp;&amp;依次执行多个命令</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure></div>
+<h1>更换主题</h1>
+<p>在官方 <a class="link"   href="https://hexo.io/themes/" >https://hexo.io/themes/<i class="fas fa-external-link-alt"></i></a> 页面上有许多可供选择的主题<br>
+它们大多配备了较为完善的文档供配置<br>
+如果你熟悉Html和CSS等前端工具，也可以通过官方文档等文章自制或编辑一个主题</p>
+<p>以本博客使用的redefine为例<br>
+Github页面：<a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine" >https://github.com/EvanNotFound/hexo-theme-redefine<i class="fas fa-external-link-alt"></i></a><br>
+文档：<a class="link"   href="https://redefine-docs.evanluo.top/" >https://redefine-docs.evanluo.top/<i class="fas fa-external-link-alt"></i></a><br>
+请仔细阅读文档，可通过命令</p>
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></div>
 <p>在本地部署以快速查看效果</p>
-<h2 id="1-配置文件详解"><a href="#1-配置文件详解" class="headerlink" title="1. 配置文件详解"></a>1. 配置文件详解</h2><p>_config.yml文件会与_config.你的主题.yml文件合并覆盖，具体请参阅主题文档</p>
-<h1 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h1>]]></content>
+<h2 id="1-配置文件详解">1. 配置文件详解</h2>
+<p>_config.yml文件会与_config.你的主题.yml文件合并覆盖，具体请参阅主题文档</p>
+<h1>“未完待续”</h1>
+]]></content>
       <tags>
         <tag>all-in-one</tag>
       </tags>
@@ -155,7 +219,15 @@ id_rsa 是本电脑的私钥，请妥善保存
   <entry>
     <title>test2</title>
     <url>/2022/12/08/test2/</url>
-    <content><![CDATA[<p>9999666</p>
+    <content><![CDATA[<style>
+        kbd {
+            border-radius:4px;
+            padding:4px;
+            border:2px solid black;
+        }
+    </style>
+<p>9999666所属<br>
+<kbd>Ctrl</kbd></p>
 ]]></content>
   </entry>
   <entry>
@@ -167,12 +239,9 @@ id_rsa 是本电脑的私钥，请妥善保存
                      data-src="/images/mem/alchemaniac.jpg"
                       width=256 height=256 
                 >
-
-<h3 id="111"><a href="#111" class="headerlink" title="111"></a>111</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-
-
-
+<h3 id="111">111</h3>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+<p>/images/addd.jpg</p>
 ]]></content>
       <categories>
         <category>web前端</category>
